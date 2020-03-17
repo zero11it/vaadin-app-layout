@@ -273,4 +273,17 @@
             </build>
         </profile>
     </profiles>
+    
+    <distributionManagement>
+    <repository>
+      <id>zero11.internal</id>
+      <name>Internal Release Repository</name>
+      <url>https://maven.zero11.org/repository/internal/</url>
+    </repository>
+    <snapshotRepository>
+      <id>zero11.snapshots</id>
+      <name>Internal Snapshot Repository</name>
+      <url>https://maven.zero11.org/repository/snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
 </project>
